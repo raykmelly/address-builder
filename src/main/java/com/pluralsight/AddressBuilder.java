@@ -58,5 +58,5 @@ public class AddressBuilder {
         scanner.close();
     }
 
-
+    // TODO: Create a method to build a billing / shipping address and return it as a string
 }
