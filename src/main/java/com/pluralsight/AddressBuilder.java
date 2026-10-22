@@ -48,8 +48,11 @@ public class AddressBuilder {
         builder.append(shippingCity).append(", ");
         builder.append(shippingState).append(" ").append(shippingZip);
 
-        // Display the string builder
-        System.out.println(builder);
+        // Make the builder into a string
+        String finalAddress = builder.toString();
+
+        // Display the final address
+        System.out.println(finalAddress);
 
         // Close the scanner
         scanner.close();
